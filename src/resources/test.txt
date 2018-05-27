@@ -1,0 +1,6 @@
+This is a test file that contains data that will be sent.
+If the data has issue wile sending then sender will resend.
+If the receiver got the data but the acknowledgement was lost then sender resends.
+If the receiver got the data but data was corrupted sender will resend.
+If the data comes in without corruption then receiver will send acknowldgement 
+and sender will get the acknowledgement.
